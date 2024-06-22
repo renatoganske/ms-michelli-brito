@@ -24,14 +24,15 @@ Para isso, o usuário informa um nome e um email. A classe UserProducer é respo
 Este microsserviço é responsável por receber as mensagens da fila RabbitMQ e enviar emails aos usuários.
 Para o envio, foi usado o próprio gmail, de movo que as variáveis de ambiente foram configuradas localmente.
 
+###### Email recebido após a mensagem ser consumida pelo serviço de email
 ![alt text](email_recebido.png)
-Email recebido após a mensagem ser consumida pelo serviço de email
+
 
 ## Tecnologias Utilizadas
-Java 17
-Spring Boot
-Spring Data JPA
-RabbitMQ
-Spring AMQP
-Spring Mail
-PostgreSQL
+- Java 17
+- Spring Boot
+- Spring Data JPA
+- RabbitMQ
+- Spring AMQP
+- Spring Mail
+- PostgreSQL
